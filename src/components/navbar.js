@@ -17,26 +17,6 @@ const Navbar = ({ setShow, size }) => {
         </span>
         <span className="my_shop" onClick={() => setShow(true)}>
         Shop
-            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      All Products
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Popular Items
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      New Arrivals
-                    </a>
-                  </li>
-                </ul>
         </span>
         <div className="cart" onClick={() => setShow(false)}>
           <span>
